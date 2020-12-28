@@ -4,7 +4,7 @@
 # Replace Slack.sh in /boot/config/plugins/dynamix/notifications/agents
 # Set to your Discord webhook token.
 # DO NOT append "/slack"
-WEBHOOK="https://discord.com/api/webhooks/793189983640616973/khF6pAi9HEeM1E4ztZ0S-M13BNxGspGVLfN-PzyuHKEYBc_wA3u_S4n0SFP7hLsclv47"
+WEBHOOK="https://discord.com/api/webhooks/ID/URLTOKEN"
 
 curl "$WEBHOOK" \
 -X "POST" \
