@@ -1,9 +1,11 @@
 #!/bin/bash
 
 # Send Unraid notifications to Discord
+# Enable Slack Notifications in Settings. Apply. Save.
 # Replace Slack.sh in /boot/config/plugins/dynamix/notifications/agents
 # Set to your Discord webhook token.
 # DO NOT append "/slack"
+# Go back to Settings or Refresh and send a test under the Slack integration to ensure success.
 WEBHOOK="https://discord.com/api/webhooks/ID/URLTOKEN"
 
 curl "$WEBHOOK" \
