@@ -1,5 +1,6 @@
 #!/bin/bash
-
+# PLUGIN IS DEPRECATED.
+## USE THE OFFICIAL DISCORD NOTIFICATION INTEGRATION ON UNRAID ON LATEST OS.
 # Send Unraid notifications to Discord
 # Enable Slack Notifications in Settings. Apply. Save.
 # Replace Slack.sh in /boot/config/plugins/dynamix/notifications/agents
