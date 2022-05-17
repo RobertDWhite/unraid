@@ -1,0 +1,3 @@
+#!/bin/bash
+sleep 10m
+docker run -d --rm --name inventory-hunter --network host -v /mnt/user/appdata/tracker/data/config:/data -v /mnt/user/appdata/tracker/log/log.txt:/log.txt -v /mnt/user/appdata/tracker/config.yaml:/config.yaml ericjmarti/inventory-hunter:latest --alerter discord --webhook https://discord.com/api/webhooks/***/***

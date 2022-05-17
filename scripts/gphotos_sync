@@ -1,0 +1,4 @@
+#!/bin/bash
+
+#Sync local pictures to Google directory
+rclone copy /mnt/user/Pictures/ gdrive:/Pictures --links --progress

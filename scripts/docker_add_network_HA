@@ -1,0 +1,4 @@
+#!/bin/bash
+# add connections to br1 and br4 networks for VLAN / subnet access
+docker network connect br1 HomeAssistant 2>/dev/null
+docker network connect br4 HomeAssistant 2>/dev/null

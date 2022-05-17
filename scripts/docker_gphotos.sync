@@ -1,0 +1,2 @@
+#!/bin/bash
+docker exec -it GooglePhotosSync2 gphotos-sync /storage
